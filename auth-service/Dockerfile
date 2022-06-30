@@ -12,5 +12,4 @@ RUN pip install -r requirements.txt
 COPY ./app /app
 ENV PYTHONPATH=/app
 WORKDIR /app
-
 ENTRYPOINT [ "/start-reload.sh" ]
